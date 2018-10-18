@@ -137,12 +137,22 @@ header{
 }
 .contact p {
     color: rgb(47, 83, 123);
-    margin-bottom: 0%;
+    margin-bottom: 5%;
     font-family: 'Roboto Condensed', sans-serif; 
+    margin-left: 4px;
+    text-align: center;
 }
 .mail, .phone {
     display: flex;
 }
+.mail img, .phone img {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
 .social {
     justify-content: center;
     vertical-align: middle;
