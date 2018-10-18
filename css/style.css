@@ -109,12 +109,71 @@ header{
 }
 /* END Header & Banner */
 
-/* FOOTER */
+/* ----------FOOTER---------- */
+/* Ancien */
 .footer{
     margin: 0;
     padding: 0;
 }
-/* END FOOTER */
+/* end Ancien */
+
+
+.topfooter {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(169, 177, 184);
+  padding-top: 30px;
+  padding-bottom: 15px;
+  
+}
+.contact {
+    justify-content: center;
+    margin-right: 220px;
+    vertical-align: middle;
+}
+.contact h3 {
+    color: rgb(94, 94, 94);
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.contact p {
+    color: rgb(47, 83, 123);
+    margin-bottom: 0%;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+.social {
+    justify-content: center;
+    vertical-align: middle;
+}
+.social h3 {
+    color: rgb(94, 94, 94);
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.social_network {
+    width: 55px;
+    height: 55px;
+    margin-bottom: 50px;
+    vertical-align: middle;
+}
+
+.copyright {
+  background-color: rgb(148, 155, 161)  ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.copyright p {
+    color: rgb(44, 44, 44);
+    text-align: center;
+}
+
+/* ----------END FOOTER---------- */
 
 /* HOME */
 /* PRESENTATION 1*/
