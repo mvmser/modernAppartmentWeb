@@ -109,15 +109,11 @@ header{
 }
 /* END Header & Banner */
 
-/* ----------FOOTER---------- */
-/* Ancien */
-.footer{
+/* FOOTER */
+.footer {
     margin: 0;
     padding: 0;
 }
-/* end Ancien */
-
-
 .topfooter {
   display: flex;
   justify-content: center;
