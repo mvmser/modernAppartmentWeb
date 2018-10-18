@@ -140,7 +140,6 @@ header{
     font-family: 'Roboto Condensed', sans-serif;
     
 }
-
 .social {
     justify-content: center;
     vertical-align: middle;
@@ -152,13 +151,16 @@ header{
     font-weight: bold;
     letter-spacing: 0.5px;
 }
-.social_network {
+.social_icon {
     width: 55px;
     height: 55px;
     margin-bottom: 50px;
     vertical-align: middle;
-}
-
+    transition: all 0.5s ease;
+} 
+.social_icon:hover {
+    transform: rotate(+10deg);
+} 
 .copyright {
   background-color: rgb(148, 155, 161)  ;
   padding-top: 10px;
