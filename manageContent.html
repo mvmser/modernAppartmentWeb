@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Manage</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <link href="css/bootstrap-imageupload.css" rel="stylesheet">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto+Slab" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    
+</head>
+
+<body class="manageBody">
+
+<!-- Header -->
+<header>
+    <a href="home.html" ><img class="logo" src="img/logo.png"></a>
+     <!-- Navigation -->        
+    <nav class="navigation">
+        <ul class="nav">
+            <a class="nav-link" href="home.html">HOME</a>
+            <a class="nav-link" href="collection.html">GALLERIES</a>
+            <a class="nav-link" href="manageContent.html">MANAGE</a>
+            <a href="login.html"><button type="button" class="btn btn-outline-dark">LOGIN</button></a>
+        </ul>
+    </nav>
+    <!-- End navigation -->
+    <div class="separator"></div>
+</header>
+<!-- END Header -->
+
+<!-- MANAGE PAGE -->
+<section class="managePage">
+    <div class="addOrRm">
+        <div class="addImg">
+            <h2>ADD</h2>
+            
+            <div class="container mx-auto">
+                <input type="text" class="form-control mb-3" placeholder="Title" id="TitlePic">
+                <input type="text" class="form-control" placeholder="Description" id="DescriptionPic">
+                
+                
+                <!-- bootstrap-imageupload. -->
+                <div class="imageupload panel panel-default">
+                    <div class="panel-heading clearfix">
+                        <h3 class="panel-title a-left my-2">Upload Image</h3>
+                        <div class="btn-group a-right mx-3 my-2" role="group">
+                            <button type="button" class="btn btn btn-light active">File</button>
+                            <button type="button" class="btn btn btn-light">URL</button>
+                        </div>
+                    </div>
+                    <div class="file-tab panel-body">
+                        <label class="btn btn-outline-secondary btn-file">
+                            <span>Browse</span>
+                            <!-- The file is stored here. -->
+                            <input type="file" name="image-file">
+                        </label>
+                        <button type="button" class="btn btn-danger mb-2">Remove</button>
+                    </div>
+                    <div class="url-tab panel-body">
+                        <div class="input-group">
+                            <input type="text" class="form-control hasclear" placeholder="Image URL">
+                            <div class="input-group-btn">
+                                <button type="button" class="btn  btn-outline-success">Submit</button>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-danger">Remove</button>
+                        <!-- The URL is stored here. -->
+                        <input type="hidden" name="image-url">
+                    </div>
+                </div>
+                <!-- end -->
+                
+                <button type="button" class="btn btn-light mb-2">Add</button>
+            </div>
+                
+                
+            
+
+
+            
+            
+            
+            
+
+        </div>
+        <div class="rmImg">
+            <h2>REMOVE</h2>
+            <div class="container">
+                <input type="text" class="form-control mb-3" placeholder="ID picture" id="idPic">
+                
+                <button type="button" class="btn btn-light mb-2">Remove</button>
+            </div>
+        </div>
+    </div>    
+</section>
+<!-- END MANAGE PAGE -->
+    
+    
+<!-- FOOTER -->
+<footer>
+    <div class="separator"></div>
+    
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-4 mt-2">
+                <p>© Mohamed SERHIR 2018 </p> 
+            </div>
+            <div class="col-4">
+                <button style="float: right;" type="button" class="btn btn-link" data-toggle="modal" data-target="#about">About me</button>
+            </div>
+        </div>
+
+        
+        
+        <div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="about" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="aboutTitle">About me</h5>
+              </div>
+                
+              <div class="modal-body">
+                <p>jjdjdjdj djjdjdjd</p>
+                
+                <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="width:10%">10%</div>
+                </div>
+                  
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+    </div>
+    
+</footer>
+<!-- END FOOTER -->
+
+<!-- JS -->
+
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap-imageupload.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
