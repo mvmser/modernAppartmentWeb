@@ -306,7 +306,7 @@ header{
     display: inline-block;
 }
 .picture img{
-    width: 400px;
+    width: 90%;
     height: 260px;
     border-radius: 2%;
     text-align: center;
