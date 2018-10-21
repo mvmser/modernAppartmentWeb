@@ -66,10 +66,12 @@ h1.title{
 /* End Header HOME */
 
 /* Header & Banner */
-header{
+.navBar{
     padding: 0;  
     margin: 0;
     width: 100%;
+    border-bottom: 1px solid;
+    overflow: hidden;
 }
 .logo{
     min-width: 50px;
@@ -270,8 +272,7 @@ header{
     width: 20%;
     margin: auto;
 }
-#collection{
-    
+#collection{  
     background-color: white;
     overflow: hidden;
     width: 100%;
@@ -283,7 +284,6 @@ header{
     width: 100%;
     text-align: center;
 }
-
 .boxTitle{
     padding-bottom: 30px;
     padding-top: 20px;
