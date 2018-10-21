@@ -1,3 +1,4 @@
+/*Scroll*/
 $(document).ready(function() 
 {
     $('.js-scroll').on('click', function() 
@@ -8,10 +9,9 @@ $(document).ready(function()
         return false;
     });
 });
+/* End scroll */
 
 
 
-
-
-            var $imageupload = $('.imageupload');
-            $imageupload.imageupload();
+var $imageupload = $('.imageupload');
+$imageupload.imageupload();

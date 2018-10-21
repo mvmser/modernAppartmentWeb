@@ -14,7 +14,6 @@
     100% 
     { transform: translateX(0px);}
 }
-
 /* General */
 body, html{
     background: #fff;
@@ -37,7 +36,6 @@ body, html{
     vertical-align:baseline;
     animation: opacity 10s;
 }
-
 /* Header & Banner HOME */
 .navHome{
     padding: 0;  
@@ -46,8 +44,7 @@ body, html{
     z-index: 2;
     position: absolute;    
 }
-.bannerHome
-{
+.bannerHome{
     background-color: #E6E6E6;
     background-position: center center;
     background-image: url(../img/background/backgroud_homeFront.jpg);
@@ -89,7 +86,7 @@ header{
     padding: 0;
     float: right;  
     overflow: hidden;  
-    animation: opacity 2.5s;
+    animation: opacity 7s;
 }
 .navigation > ul{
     list-style-type: none;
@@ -184,11 +181,10 @@ header{
     color: rgb(44, 44, 44);
     text-align: center;
 }
-
-/* ----------END FOOTER---------- */
+/* END FOOTER */
 
 /* HOME */
-/* PRESENTATION 1*/
+  /* PRESENTATION 1*/
 #presentation_1{
     min-height:  100vh;
     text-align: center;
@@ -212,7 +208,7 @@ header{
     max-width: 100px;
 }
 
-/* PRESENTATION 2*/
+  /* PRESENTATION 2*/
 #presentation_2{
     height: 100vh;
     background-image: url(../img/background/background_presentation.jpg);
@@ -235,7 +231,7 @@ header{
     font-size: 18px;
 }
 
-/* PRESENTATION 3*/
+  /* PRESENTATION 3*/
 #presentation_3{
     height: 100vh;
     background-color: floralwhite;
@@ -398,5 +394,4 @@ header{
 .panel-body {
     padding:10px;
 }
-
 /* END MANAGE */
