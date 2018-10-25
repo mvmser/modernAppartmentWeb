@@ -134,7 +134,7 @@ h1.title{
     font-weight: bold;
     letter-spacing: 0.5px;
 }
-.contact p {
+.contact a {
     color: rgb(47, 83, 123);
     margin-bottom: 5%;
     font-family: 'Roboto Condensed', sans-serif; 
@@ -283,6 +283,7 @@ h1.title{
     height: 100%;
     width: 100%;
     text-align: center;
+    border-top: .5px solid;
 }
 .boxTitle{
     padding-bottom: 30px;
@@ -298,29 +299,46 @@ h1.title{
     display: flex;
 }
 .picture{
-    margin: auto;
-    display: inline-block;
-}
-.picture img{
+    display: block;
     width: 90%;
     height: 260px;
-    border-radius: 2%;
-    text-align: center;
-    object-fit: cover; /* etire pas image*/
     padding: 0%;
-    margin: 0%;
-    margin-right: 5px;
+    margin: 1%;
+    position: relative;
 }
+.picture > .image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.picture img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+    object-fit: cover;
+}
+.picture > .infos{
+    position: absolute;
+    z-index: 2;
+}
+.picture  p{
+    line-height: 5px;
+}
+.picture:hover{
+    opacity: .6;
+}
+
 /* END COLLECTION*/
 
 /* MANAGE*/
 .manageBody{
     background-color: #E6E6E6;
     width: 100%;
-    height: 100vh;
 }
 .managePage{
-    background-color: white;
+    background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url(../img/background/house-nature-sunset.jpg);
+    background-attachment: fixed;  
     width: 100%;
     height: 79.3%;
     background-position: center center;

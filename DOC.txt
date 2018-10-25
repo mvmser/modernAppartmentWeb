@@ -1,0 +1,16 @@
+--------|ID|--------
+
+OD : Outdoor
+IN : Indoor
+LR : Living Room
+BD : Bedroom
+KT: Kitchen
+
+ID  : OD-00001
+
+ID : 1
+PREFIX: OD
+DESCRIPTION: Oefh
+URL : http://..
+
+--------||--------
