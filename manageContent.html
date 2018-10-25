@@ -38,12 +38,21 @@
 
 <!-- MANAGE PAGE -->
 <section class="managePage">
+    <!-- ADD -->
     <div class="addOrRm">
         <div class="addImg">
             <h2>ADD</h2>
             
             <div class="container mx-auto">
-                <input type="text" class="form-control mb-3" placeholder="Title" id="TitlePic">
+                <select class="form-control mb-3"  id="TitlePic">
+                    <option>Please Select..</option>
+                    <option>Outdoor</option>
+                    <option>Indoor</option>
+                    <option>Living Room</option>
+                    <option>Bedroom</option>
+                    <option>Kitchen</option>
+                    <option>Bathroom</option>
+                </select>
                 <input type="text" class="form-control" placeholder="Description" id="DescriptionPic">
                 
                 <!-- bootstrap-imageupload. -->
@@ -76,28 +85,21 @@
                     </div>
                 </div>
                 <!-- end -->
-                
                 <button type="button" class="btn btn-light mb-2">Add</button>
             </div>
-                
-                
-            
-
-
-            
-            
-            
-            
 
         </div>
+        <!-- END ADD -->
+
+        <!-- REMOVE -->
         <div class="rmImg">
             <h2>REMOVE</h2>
             <div class="container">
                 <input type="text" class="form-control mb-3" placeholder="ID picture" id="idPic">
-                
                 <button type="button" class="btn btn-light mb-2">Remove</button>
             </div>
         </div>
+        <!-- EN REMOVE-->
     </div>    
 </section>
 <!-- END MANAGE PAGE -->

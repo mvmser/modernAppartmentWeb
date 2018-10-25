@@ -6,7 +6,10 @@ LR : Living Room
 BD : Bedroom
 KT: Kitchen
 
-ID  : OD-00001
+ItemID  : OD-0001
+
+
+STR_PAD pour ajouter 000 devant l'id
 
 ID : 1
 PREFIX: OD
