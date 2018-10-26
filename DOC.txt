@@ -5,6 +5,7 @@ IN : Indoor
 LR : Living Room
 BD : Bedroom
 KT: Kitchen
+BA : Bathroom
 
 ItemID  : OD-0001
 

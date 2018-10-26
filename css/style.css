@@ -1,6 +1,8 @@
 @keyframes opacity{
     0%   
         { opacity: 0; }
+    25%
+        { opacity: .5;}
     100% 
         {  opacity: 1;}
 }
@@ -20,6 +22,9 @@
     100% 
     { transform: translateY(0);}
 }
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
 /* General */
 body, html{
     background: #fff;
@@ -78,6 +83,7 @@ h1.title{
     width: 100%;
     border-bottom: 1px solid;
     overflow: hidden;
+    background-color: rgb(169, 177, 184);
 }
 .logo{
     min-width: 50px;
@@ -125,13 +131,11 @@ h1.title{
   background-color: rgb(169, 177, 184);
   padding-top: 30px;
   padding-bottom: 15px;
-  
 }
 .contact {
     justify-content: center;
     margin-right: 220px;
     vertical-align: middle;
-    
 }
 .contact h3, .social h3 {
     color: rgb(94, 94, 94);
@@ -157,7 +161,6 @@ h1.title{
     vertical-align: middle;
     margin-right: 5px;
 }
-
 .social {
     justify-content: center;
     vertical-align: middle;
@@ -170,7 +173,6 @@ h1.title{
     letter-spacing: 0.5px;
 }
 .social_icon {
-
     width: 55px;
     height: 55px;
     margin-bottom: 50px;
@@ -181,7 +183,7 @@ h1.title{
     transform: rotate(+10deg);
 } 
 .copyright {
-  background-color: rgb(148, 155, 161)  ;
+  background-color: rgb(148, 155, 161);
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -243,19 +245,108 @@ h1.title{
 #presentation_3{
     height: 100vh;
     background-color: floralwhite;
+    background-image: url(../img/background/mac-background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: hidden;  
 }
 /* END PRESENTATION 3*/
 
 /* LOGIN*/
-
-
+.login{
+    font-family: "Poppins", sans-serif;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url(../img/background/house-nature-sunset.jpg);
+}
+.login > .wrapper{
+    margin: auto;
+    width: 30%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.login a{
+    color: #92badd;
+    display:inline-block;
+    text-decoration: none;
+    font-weight: 400;
+}
+.login h2{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display:inline-block;
+    margin: 40px 8px 10px 8px; 
+    color: #cccccc;
+}
+.login input, .login button{
+    margin-top: 15px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.signIcon{
+    width: 30%;
+    position: absolute;
+    margin-left: 35%;
+    margin-right: 10%;
+    top: -50px;
+}
+.signIcon img{
+    width: 100%;
+}
+.signContent {
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+    position: relative;
+}
+.signFooter {
+    background-color: #f6f6f6;
+    border-top: 1px solid #dce8f1;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+.signFooter h2{
+    margin: auto;
+}
+h2.inactive {
+    color: #cccccc;
+}
+h2.active {
+    color: #0d0d0d;
+    border-bottom: 2px solid #5fbae9;
+    margin-top: 20%;
+}
+.underlineHover:after {
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color: #56baed;
+    content: "";
+    transition: width 0.2s;
+}
+.underlineHover:hover {
+    color: #0d0d0d;
+}
+.underlineHover:hover:after{
+    width: 100%;
+}
+  
 /* END LOGIN*/
 
 
 /* COLLECTION*/
 .bannerCollection{
-    background-color: #E6E6E6;
+    background-color: #D0D3D4;
     width: 100%;
     height: 86vh;
     padding: 0;
@@ -302,8 +393,8 @@ h1.title{
     font-weight: bold;
 }
 .boxPicture {
-    display: flex;
-    margin-bottom: 2%; 
+    margin-bottom: 2%;
+    display: flex; 
 }
 .picture {
     width: 90%;
@@ -351,7 +442,6 @@ h1.title{
 
 /* MANAGE*/
 .manageBody{
-    background-color: #E6E6E6;
     width: 100%;
 }
 .managePage{
