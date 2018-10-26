@@ -472,10 +472,10 @@ h2.active {
     margin-right: 2%;
     text-align: center;
     width: 50%;
-    border-radius: 10px;
+    border-radius: 9px;
     box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
     border: 5px solid rgba(125,206,160, 0.95);
-    background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7));
+    background: linear-gradient(rgba(221, 221, 221, 0.7), rgba(221, 221, 221,.7));
 }
 .rmImg{
     margin-top: 5%;
@@ -485,7 +485,9 @@ h2.active {
     text-align: center;
     width: 50%;
     border-radius: 9px;
-    background-color: rgba(216,121,95, 0.95);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    border: 5px solid rgba(216,121,95, 0.95);
+    background: linear-gradient(rgba(221, 221, 221, 0.7), rgba(221, 221, 221,.7));
 }
 .imageupload {
     margin: 20px 0;
