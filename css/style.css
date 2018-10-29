@@ -1,8 +1,8 @@
 @keyframes opacity{
     0%   
         { opacity: 0; }
-    25%
-        { opacity: .5;}
+    50%
+        { opacity: .8;}
     100% 
         {  opacity: 1;}
 }
@@ -83,7 +83,7 @@ h1.title{
     width: 100%;
     border-bottom: 1px solid;
     overflow: hidden;
-    background-color: rgb(169, 177, 184);
+    background-color: #f6f6f6;
 }
 .logo{
     min-width: 50px;
@@ -117,6 +117,24 @@ h1.title{
     color: black;
     font-size: 17px;
     font-family: 'Roboto Condensed', sans-serif;
+}
+/*Under Line Nav*/
+.underLineNav:after {
+    height: 3px;
+    background-color: #4d8fdb;
+    content: "";
+    transition: width 0.4s;
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;    
+}
+.underLineNav:hover {
+    text-decoration: none;
+    color: #707070;
+}
+.underLineNav:hover:after{
+    width: 100%;
 }
 /* END Header & Banner */
 
@@ -257,6 +275,9 @@ h1.title{
 .login{
     font-family: "Poppins", sans-serif;
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url(../img/background/house-nature-sunset.jpg);
 }
 .login > .wrapper{
@@ -325,14 +346,14 @@ h2.active {
     margin-top: 20%;
 }
 .underlineHover:after {
-    display: block;
-    left: 0;
-    bottom: -10px;
-    width: 0;
     height: 2px;
     background-color: #56baed;
     content: "";
     transition: width 0.2s;
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;    
 }
 .underlineHover:hover {
     color: #0d0d0d;
@@ -444,13 +465,13 @@ h2.active {
     width: 100%;
 }
 .managePage{
-    background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url(../img/background/house-nature-sunset.jpg);
-    background-attachment: fixed;  
     width: 100%;
     height: 79.3%;
+    background-size: cover;
+    background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url(../img/background/house-nature-sunset.jpg);
 }
 .addOrRm{
     display: flex;
