@@ -1,7 +1,3 @@
-if (typeof jQuery === 'undefined') {
-    throw new Error('bootstrap-imageupload\'s JavaScript requires jQuery.');
-}
-
 (function($) {
     'use strict';
 
@@ -61,10 +57,9 @@ if (typeof jQuery === 'undefined') {
         // Do a complete reset.
         resetFileTab($fileTab);
         resetUrlTab($urlTab);
-        showFileTab($fileTab);
+        showUrlTab($urlTab);
         enable.call($imageupload);
         
-        // Unbind all previous bound event handlers.
         $fileTabButton.off();
         $browseFileButton.off();
         $removeFileButton.off();

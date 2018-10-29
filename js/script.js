@@ -6,12 +6,11 @@ $(document).ready(function()
         var page = $(this).attr('href');
         var speed = 1050; 
         $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); 
-        return false;
     });
 });
 /* End scroll */
 
-
-
+/*ImageUpload*/
 var $imageupload = $('.imageupload');
 $imageupload.imageupload();
+/* End imageUpload */
