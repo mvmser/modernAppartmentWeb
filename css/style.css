@@ -3,28 +3,18 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
 
 @keyframes opacity{
-    0%   
-        { opacity: 0; }
-    50%
-        { opacity: .8;}
-    100% 
-        {  opacity: 1;}
+    0% { opacity: 0; }
+    50% { opacity: .8; }
+    100% { opacity: 1; }
 }
 @keyframes titleAnim{
-    0% 
-    { transform: translateX(-600px);}
-
-    50% 
-    { transform: translateX(150px);}
-
-    100% 
-    { transform: translateX(0px);}
+    0% { transform: translateX(-600px); }
+    50% { transform: translateX(150px); }
+    100% { transform: translateX(0px); }
 }
 @keyframes infosAnim{
-    0% 
-    { transform: translateY(-100%);}
-    100% 
-    { transform: translateY(0);}
+    0% { transform: translateY(-100%);}
+    100% { transform: translateY(0);}
 }
 
 /* General */
@@ -32,9 +22,6 @@ body, html{
     background: #fff;
     padding: 0;
     margin: 0;
-}
-.title{
-    animation: titleAnim 2s; 
 }
 .separator{
     height: .5px;
@@ -49,6 +36,7 @@ body, html{
     vertical-align:baseline;
     animation: opacity 10s;
 }
+
 /* ----- END General ----- */
 
 /* ----- Header & Banner HOME ----- */
@@ -59,7 +47,7 @@ body, html{
     z-index: 2;
     position: absolute;    
 }
-.bannerHome{
+#bannerHome{
     background-color: #E6E6E6;
     background-position: center center;
     background-image: url(../img/background/backgroud_homeFront.jpg);
@@ -72,6 +60,9 @@ body, html{
     padding-top: 5%;
     background-attachment: scroll;
     font-family: 'Lato', sans-serif;
+}
+.title{
+    animation: titleAnim 2s; 
 }
 h1.title{
     color: #ffffff;
@@ -122,11 +113,10 @@ h1.title{
     font-size: 17px;
     font-family: 'Roboto Condensed', sans-serif;
 }
-/*Under Line Nav*/
 .underLineNav:after {
+    content: "";
     height: 3px;
     background-color: #4d8fdb;
-    content: "";
     transition: width 0.4s;
     display: block;
     left: 0;
@@ -216,7 +206,7 @@ h1.title{
 /* ----- END FOOTER ----- */
 
 /* ----- HOME ----- */
-  /* PRESENTATION 1*/
+/* PRESENTATION 1*/
 #presentation_1{
     min-height:  100vh;
     text-align: center;
@@ -239,8 +229,7 @@ h1.title{
     max-height: 100px;
     max-width: 100px;
 }
-
-  /* PRESENTATION 2*/
+/* PRESENTATION 2*/
 #presentation_2{
     height: 100vh;
     background-image: url(../img/background/background_presentation.jpg);
@@ -262,16 +251,10 @@ h1.title{
     font-family: 'Roboto Condensed', serif;
     font-size: 18px;
 }
-
-  /* PRESENTATION 3*/
+/* PRESENTATION 3*/
 #presentation_3{
     height: 100vh;
-    background-color: floralwhite;
-    background-image: url(../img/background/mac-background.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;  
+ 
 }
 /* ----- END PRESENTATION 3 -----*/
 
