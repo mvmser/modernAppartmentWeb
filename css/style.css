@@ -16,6 +16,15 @@
     0% { transform: translateY(-100%);}
     100% { transform: translateY(0);}
 }
+@keyframes buzz
+{
+    15% { transform: translateX(5px);}
+    30% { transform: translateX(-5px);}
+    50% { transform: translateX(3px)}
+    70% { transform: translateX(-3px);}
+    80% { transform: translateX(2px);}
+    100%{ transform: translateX(0);}
+}
 
 /* General */
 body, html{
@@ -139,6 +148,7 @@ h1.title{
 }
 .topfooter {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   background-color: rgb(169, 177, 184);
   padding-top: 30px;
@@ -146,8 +156,8 @@ h1.title{
 }
 .contact {
     justify-content: center;
-    margin-right: 220px;
     vertical-align: middle;
+    padding: 0 10% 0 10%;
 }
 .contact h3, .social h3 {
     color: rgb(94, 94, 94);
@@ -176,6 +186,7 @@ h1.title{
 .social {
     justify-content: center;
     vertical-align: middle;
+    padding: 0 10% 0 10%;
 }
 .social h3 {
     color: rgb(94, 94, 94);
@@ -208,7 +219,7 @@ h1.title{
 /* ----- HOME ----- */
 /* PRESENTATION 1*/
 #presentation_1{
-    min-height:  100vh;
+    min-height: 100vh;
     text-align: center;
     background-color: #E5E5E5E5;
     overflow: hidden;
@@ -217,9 +228,9 @@ h1.title{
 	transform: scale(1.1);
 }
 .img1{
-    max-width: 100%;
-    min-width: 100%;
+    width: 100%;
     height: 300px;
+    max-height: 100%;
     border-radius: 2%;
     object-fit: cover;
     transform: scale(1);
@@ -231,7 +242,7 @@ h1.title{
 }
 /* PRESENTATION 2*/
 #presentation_2{
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(../img/background/background_presentation.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -245,6 +256,7 @@ h1.title{
     border: 1px black solid;
     font-family: 'Lato', serif;
     padding: 5px;
+    width: 90%;
 }
 .presentation_box p{
     margin: 0;
@@ -253,9 +265,54 @@ h1.title{
 }
 /* PRESENTATION 3*/
 #presentation_3{
-    height: 100vh;
- 
+    min-height: 100vh;
 }
+.singleBox{
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 5px 40px 0 rgba(0,0,0,0.3);
+    transition: all 0.3s ease 0s;
+}
+.singleBox h4 {
+    margin-bottom:20px;
+}
+.singleBox p{
+    margin-bottom:0;
+}
+.singleBox:hover{
+    background-color:#04091e;
+    border-color:#04091e;
+}
+.singleBox:hover h4{
+    color:#c6b069;
+}
+.singleBox:hover p{
+    color:#ffffff;
+}
+@media (max-width: 1024px)
+{
+    .singleBox{padding:22px}
+}
+@media (max-width: 991px)
+{
+    .singleBox{margin-bottom:30px}
+}
+.singlePic {
+    width: 100%;
+    height: 300px;
+}
+.singlePic img {
+    border-radius: 9px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.singlePic:hover {
+    animation: buzz 1s ease;
+    animation-iteration-count: 2;
+}  
 /* ----- END PRESENTATION 3 -----*/
 
 /* ----- COLLECTION -----*/
