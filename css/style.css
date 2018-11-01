@@ -56,6 +56,7 @@ body, html{
     width: 100%;
     z-index: 2;
     position: absolute;    
+    
 }
 #bannerHome{
     background-color: #E6E6E6;
@@ -89,6 +90,8 @@ h1.title{
     border-bottom: 1px solid;
     overflow: hidden;
     background-color: #f6f6f6;
+    position: fixed;
+    z-index: 10;
 }
 .logo{
     min-width: 50px;
