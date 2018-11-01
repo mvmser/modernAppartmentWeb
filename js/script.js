@@ -11,6 +11,8 @@ $(document).ready(function()
 /* End scroll */
 
 /*ImageUpload*/
-var $imageupload = $('.imageupload');
+var $imageupload = $('.upload');
 $imageupload.imageupload();
+
+
 /* End imageUpload */
