@@ -12,65 +12,66 @@
 <body>
 
 <!-- Header -->
-<header class="navHome">
-    <a href="home.html" ><img class="logo" src="img/icons/logo.png"></a>
-     <!-- Navigation -->        
-    <nav class="navigation">
-        <ul class="nav">
-            <a class="underLineNav nav-link navbar-nav" href="home.html">HOME</a>
-            <a class="underLineNav nav-link navbar-nav" href="collection.html">COLLECTION</a>
-            <a class="underLineNav nav-link navbar-nav" href="manageContent.html">MANAGE</a>
-            <a href="login.html" class="navbar-nav"><button type="button" class="btn btn-outline-dark">LOGIN</button></a>
-        </ul>
-    </nav>
+<header id="headerHome">
+    <div class="navHome">
+        <a href="home.html" ><img class="logo" src="img/icons/logo.png" alt="Logo"></a>
+        <!-- Navigation -->        
+        <nav class="navigation">
+            <ul class="nav mx-auto">
+                <li><a class="underLineNav nav-link" href="home.html">HOME</a></li>
+                <li><a class="underLineNav nav-link" href="collection.html">COLLECTION</a></li>
+                <li><a class="underLineNav nav-link" href="manageContent.html">MANAGE</a></li>
+                <li><a href="login.html" class="btn btn-outline-dark">LOGIN</a></li>
+            </ul>
+        </nav>
+    </div>
     <!-- End navigation -->
+
+    <!-- BANNER -->
+    <section>
+        <div class="container text-center mt-5">
+            <div class="row">
+                <div class="col mx-auto title">
+                    <h1 class="title">A new way to see luxury apartments</h1>
+                </div>
+            </div> 
+        </div>
+        <div class="next">
+            <a href="#presentation_1" class="js-scroll"> <img class="arrow" src="img/icons/down-arrow.png" alt="Scroll icon"></a>
+        </div>
+    </section>
+    <!-- END BANNER -->
 </header>
 <!-- END Header -->
-    
-<!-- BANNER -->
-<section id="bannerHome">
-    <div class="container text-center mt-5">
-        <div class="row">
-            <div class="col mx-auto title">
-                <h1 class="title">A new way to see luxury apartments</h1>
-            </div>
-        </div> 
-    </div>
-    <div class="next">
-        <a href="#presentation_1" class="js-scroll"> <img class="arrow" src="img/icons/down-arrow.png"></a>
-    </div>
-</section>
-<!-- END BANNER -->
-
 <!-- PRESENTATION 1 -->
-<section id="presentation_1">
+<div id="presentation_1">
     <div class="container text-center pt-5">
         <div class="row">
             <div class="col col-6 mx-auto">
-                <img class="img1" src="img/indoor/modern-living-room.jpg">
+                <img class="img1" src="img/indoor/modern-living-room.jpg" alt="Img Presentation">
                 <p>Living room</p>
             </div>
             <div class="col col-6 mx-auto">
-                <img class="img1" src="img/outdoor/modern_facade3.jpg">
+                <img class="img1" src="img/outdoor/modern_facade3.jpg" alt="Img Presentation">
                 <p>Modern outdoor</p>
             </div>
         </div> 
         
         <div class="row">
             <div class="col col-6 mx-auto">
-                <img class="img1" src="img/outdoor/modern-facade2.jpg">
+                <img class="img1" src="img/outdoor/modern-facade2.jpg" alt="Img Presentation">
                 <p>Outdoor</p>
             </div>
             <div class="col col-6 mx-auto">
-                <img class="img1" src="img/outdoor/terrasse.jpg">
+                <img class="img1" src="img/outdoor/terrasse.jpg" alt="Img Presentation">
                 <p>Luxury terrace</p>
             </div>
         </div>
     </div>
     <div class="next">
-        <a href="#presentation_2" class="js-scroll"> <img class="arrow" src="img/icons/down-arrow.png"></a>
+        <a href="#presentation_2" class="js-scroll"> <img class="arrow" src="img/icons/down-arrow.png" alt="scroll icon"></a>
     </div>  
-</section>
+</div>
 <!-- END PRESENTATION 1 -->
 
 <!-- PRESENTATION 2 -->
@@ -80,21 +81,22 @@
         <div class="separator"></div>
         <div class="row mb-5 mt-5">
             <div class="col-6">
-                <h2 style="margin-bottom: 20px;"><img src="img/icons/appartment.png" style="margin-right: 1%;">Appartment Gallery</h2>
+                <h2 style="margin-bottom: 20px;">
+                    <img src="img/icons/appartment.png" alt="Appartment icon" style="margin-right: 1%;">Appartment Gallery</h2>
                 <p><strong>›</strong>  Luxury appartment</p>
                 <p><strong>›</strong>  Get some inspiration for your appartment</p>
                 <p><strong>›</strong>  All form of appartment</p>
 
             </div>
             <div class="col-6">
-                <h2 style="margin-bottom: 20px;"><img src="img/icons/link.png">Join us</h2>
+                <h2 style="margin-bottom: 20px;"><img src="img/icons/link.png" alt="Link icon">Join us</h2>
                 <p><strong>›</strong>  Search other pictures</p>
                 <p><strong>›</strong>  Share your design with us</p>
                 <p><strong>›</strong>  Remove it if you want</p>
             </div>
         </div>
         <div class="next">
-        <a href="#presentation_3" class="js-scroll"> <img class="arrow" src="img/icons/down-arrow.png"></a>
+        <a href="#presentation_3" class="js-scroll"> <img class="arrow" src="img/icons/down-arrow.png" alt="Scroll icon"></a>
         </div>
     </div>
       
@@ -142,10 +144,10 @@
         </div>
         <div class="row mt-5">
             <div class="col-8 singlePic">
-                <img src="img/indoor/modern-living-room.jpg">
+                <img src="img/indoor/modern-living-room.jpg" alt="Img">
             </div>
             <div class="col-4 singlePic">
-                    <img src="img/indoor/modern-living-room.jpg">
+                    <img src="img/indoor/modern-living-room.jpg" alt="Img">
             </div>
         </div>
     </div>	
@@ -174,13 +176,13 @@
                     <h3>Social</h3>
                     <div class="separator" style="margin-bottom:10px;"></div>
                     
-                    <a href="https://www.linkedin.com/in/mohamed-serhir/" target="_blank" Linkedin> 
+                    <a href="https://www.linkedin.com/in/mohamed-serhir/" target="_blank"> 
                         <img class="social_icon" src="img/icons/sLinkedin.png" alt="Linkedin"> 
                     </a>
-                    <a href="https://www.facebook.com/momoserhir" target="_blank" Facebook> 
+                    <a href="https://www.facebook.com/momoserhir" target="_blank" > 
                         <img class="social_icon" src="img/icons/sFacebook.png" alt="Facebook"> 
                     </a>
-                    <a href="https://plus.google.com/u/0/108237308610571460401" target="_blank" GooglePlus> 
+                    <a href="https://plus.google.com/u/0/108237308610571460401" target="_blank" > 
                         <img class="social_icon" src="img/icons/sGoogleplus.png" alt="Googleplus"> 
                     </a>
             </div>

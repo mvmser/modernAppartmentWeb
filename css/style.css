@@ -46,19 +46,15 @@ body, html{
     vertical-align:baseline;
     animation: opacity 10s;
 }
-
 /* ----- END General ----- */
 
 /* ----- Header & Banner HOME ----- */
 .navHome{
     padding: 0;  
     margin: 0;
-    width: 100%;
-    z-index: 2;
-    position: absolute;    
-    
+    width: 100%;  
 }
-#bannerHome{
+#headerHome{
     background-color: #E6E6E6;
     background-position: center center;
     background-image: url(../img/background/backgroud_homeFront.jpg);
@@ -68,7 +64,6 @@ body, html{
     height: 100vh;
     padding: 0;
     overflow: hidden;
-    padding-top: 5%;
     background-attachment: scroll;
     font-family: 'Lato', sans-serif;
 }
@@ -90,8 +85,6 @@ h1.title{
     border-bottom: 1px solid;
     overflow: hidden;
     background-color: #f6f6f6;
-    position: fixed;
-    z-index: 10;
 }
 .logo{
     min-width: 50px;
@@ -110,16 +103,15 @@ h1.title{
     overflow: hidden;  
     animation: opacity 7s;
 }
-.navigation > ul{
+.navigation > ul > li{
     list-style-type: none;
     overflow: hidden;
     margin-right: auto;
     flex: 0 0 auto;
     display: flex;
     flex-direction: row;
-    overflow: hidden;
 }
-.navigation a, button{
+.navigation a{
     text-decoration: none;
     margin: 3px;
     color: black;
