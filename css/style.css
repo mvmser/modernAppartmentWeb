@@ -372,6 +372,7 @@ h1.title{
     padding: 0%;
     margin: 1%;
     position: relative;
+    min-width: 300px;
 }
 .picture > .image {
     width: 100%;

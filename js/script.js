@@ -13,6 +13,4 @@ $(document).ready(function()
 /*ImageUpload*/
 var $imageupload = $('.upload');
 $imageupload.imageupload();
-
-
 /* End imageUpload */
