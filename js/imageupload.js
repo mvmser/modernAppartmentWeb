@@ -96,6 +96,7 @@
                 }
             
         };
+        
 
         image.onerror = function() {
                 callback(false, 'Image could not be found.');
