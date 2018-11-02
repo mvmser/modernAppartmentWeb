@@ -25,6 +25,12 @@
     80% { transform: translateX(2px);}
     100%{ transform: translateX(0);}
 }
+@keyframes rotate
+{
+    25% { transform: rotate(+10deg);}
+    75%{ transform: rotate(-10deg);}
+    100%{ transform: rotate(0deg);}
+}
 
 /* General */
 body, html{
@@ -198,8 +204,8 @@ h1.title{
     transition: all 0.5s ease;
 } 
 .social_icon:hover {
-    transform: rotate(+10deg);
-} 
+    animation: rotate .8s ease infinite;
+}  
 .copyright {
   background-color: rgb(148, 155, 161);
   padding-top: 10px;
@@ -367,12 +373,12 @@ h1.title{
     display: flex; 
 }
 .picture {
+    min-width: 300px;
     width: 90%;
     height: 260px;
     padding: 0%;
     margin: 1%;
     position: relative;
-    min-width: 300px;
 }
 .picture > .image {
     width: 100%;
