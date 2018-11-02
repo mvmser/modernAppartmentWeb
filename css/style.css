@@ -112,9 +112,9 @@ h1.title{
 }
 .navigation a{
     text-decoration: none;
-    margin: 3px;
-    color: black;
-    font-size: 1rem;
+    margin: 2px;
+    color: rgb(12, 11, 11);
+    font-size: 1.1rem;
     font-family: 'Roboto Condensed', sans-serif;
 }
 .underLineNav:after {
@@ -146,8 +146,8 @@ h1.title{
   flex-wrap: wrap;
   justify-content: center;
   background-color: rgb(169, 177, 184);
-  padding-top: 30px;
-  padding-bottom: 15px;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 .contact {
     justify-content: center;
@@ -208,6 +208,7 @@ h1.title{
 .copyright p {
     color: rgb(44, 44, 44);
     text-align: center;
+    margin: 0;
 }
 /* ----- END FOOTER ----- */
 
