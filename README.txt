@@ -1,17 +1,9 @@
+--------|URL|--------
 
 http://web.fcet.staffs.ac.uk/s023212i/TaskOne/home.html
 
-
-
-
-
-
-
-
-
-
-
-
+Thanks,
+SERHIR Mohamed - s023212i
 
 
 --------|ID|--------
@@ -24,9 +16,6 @@ KT: Kitchen
 BA : Bathroom
 
 ItemID  : OD-0001
-
-
-STR_PAD pour ajouter 000 devant l'id
 
 ID : 1
 PREFIX: OD
